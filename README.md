@@ -4,6 +4,8 @@ parsextract-node
 
 A node.js client library for the [Securibox ParseXtract API][1]
 
+The ParseXtract API allows you to train and extract data in PDF document and transform it in a JSON structured format.
+
 ## Install
 ```console
 $ npm install parsextract
@@ -37,5 +39,7 @@ function callback(err, response) {
 ## License
 [GNU GPL][2]
 
-[1]: https://sca.securibox.eu
+[1]: https://www.securibox.eu/en/px
 [2]: https://github.com/Securibox/parsextract-node/blob/master/LICENSE
+[npm-image]: https://img.shields.io/badge/npm-0.0.1-brightgreen.svg
+[npm-url]: https://npmjs.org/package/parsextract
