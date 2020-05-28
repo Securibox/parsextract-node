@@ -41,5 +41,5 @@ function callback(err, response) {
 
 [1]: https://www.securibox.eu/en/px
 [2]: https://github.com/Securibox/parsextract-node/blob/master/LICENSE
-[npm-image]: https://img.shields.io/badge/npm-0.0.1-brightgreen.svg
+[npm-image]: https://img.shields.io/badge/npm-0.0.2-brightgreen.svg
 [npm-url]: https://npmjs.org/package/parsextract
