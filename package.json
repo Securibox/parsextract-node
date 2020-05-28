@@ -1,0 +1,37 @@
+{
+  "name": "parsextract",
+  "version": "0.0.1",
+  "description": "A node.js client for the Securibox ParseXtract API",
+  "keywords": [
+    "Securibox",
+    "ParseXtract",
+    "PX",
+    "Securibox ParseXtract"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/securibox/parsextract-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/securibox/parsextract-node/issues"
+  },
+  "main": "lib/index.js",
+  "licenses": [
+    {
+      "type": "GNU GPL",
+      "url": "https://github.com/securibox/parsextract-node/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "ramda": "0.19.x",
+    "request": "2.74.x"
+  },
+  "devDependencies": {
+    "assert": "1.4.x",
+    "mocha": "2.3.x"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  }
+}
